@@ -10,25 +10,25 @@ End-to-End Pipeline — Data preprocessing, modeling, evaluation, and deployment
 Model Explainability — Feature importance and SHAP-based insights
 
 #airline-analysis/
-│
+
 ├── app.py                      # Web application (Flask/Streamlit)
 ├── requirements.txt            # Dependencies
-│
+
 ├── data/
 │   ├── pricing_dataset.csv
 │   └── satisfaction_dataset.csv
-│
+
 ├── models/
 │   ├── xgboost_model.pkl
 │   ├── random_forest_model.pkl
 │   └── kmeans_model.pkl
-│
+
 ├── notebooks/
 │   └── eda_and_training.ipynb
-│
+
 ├── tableau/
 │   └── dashboards.twbx
-│
+
 └── templates/
     └── index.html
 
